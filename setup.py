@@ -9,7 +9,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "kasa=kasa_tui:main",
+            "ktui=kasa_tui:main",
         ],
     },
 )

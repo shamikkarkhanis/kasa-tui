@@ -204,9 +204,12 @@ class KasaTUI:
             except Exception as e:
                 print(f"An error occurred: {e}")
 
-if __name__ == "__main__":
+def main():
     tui = KasaTUI()
     try:
         asyncio.run(tui.run())
     except KeyboardInterrupt:
         pass
+
+if __name__ == "__main__":
+    main()
